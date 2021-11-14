@@ -6,7 +6,16 @@
 
     <groupId>org.example</groupId>
     <artifactId>MathUtils</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub ccenyo Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ccenyo/Utils</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
